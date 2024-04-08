@@ -11,13 +11,24 @@ export default function Transactions()  {
                     <div className="h-[150px] w-[150px] rounded-[30px] bg-[#123751] p-3 top-[-60px] relative">
                         <Image src={'/money.jpg'} width={300} height={300} alt="Cover Photo" objectFit="cover" className="rounded-[20px] aspect-square object-cover object-center"/>
                     </div>
-                    <div className="text-white text-3xl font-semibold top-[-40px] relative">Transaction Header</div>
+                    <div className="text-white text-3xl font-semibold top-[-40px] relative">Office Meals</div>
+                </div>
+                <div className="mx-[15%] flex top-[-25px] relative justify-between items-center h-[25%] bg-[#123751] rounded-[20px] p-5">
+                    <div className="">
+                        <div>You are owed</div>
+                        <div>
+                            <span>$</span>
+                            <span>2,500</span>
+                            <span>.00</span>
+                        </div>
+                    </div>
+                    <button className="px-5 text-nowrap bg-[#119611] mr-2 p-2 rounded-lg text-white font-semibold bg-[#123751]">Square Up</button>
                 </div>
                 <div className="flex overflow-x-scroll px-[15%] overflow-hidden" style={{scrollbarWidth: 'none'}}>
-                    <div className="px-5 text-nowrap bg-[#119611] mr-2 p-2 rounded-lg text-white font-semibold bg-gradient-to-tl from-[#025602] via-[#037603] to-[#119611]">Square Up</div>
-                    <div className="px-5 text-nowrap bg-[#123751] mx-2 p-2 rounded-lg text-white font-semibold">Add Transaction</div>
-                    <div className="px-5 text-nowrap bg-[#123751] mx-2 p-2 rounded-lg text-white font-semibold">Filters</div>
-                    <div className="px-5 text-nowrap bg-[#123751] mx-2 p-2 rounded-lg text-white font-semibold">Invite</div>
+                    <button className="px-5 text-nowrap bg-[#119611] mr-2 p-2 rounded-lg text-white font-semibold bg-gradient-to-tl from-[#025602] via-[#037603] to-[#119611]">Square Up</button>
+                    <button className="px-5 text-nowrap bg-[#123751] mx-2 p-2 rounded-lg text-white font-semibold">Add Transaction</button>
+                    <button className="px-5 text-nowrap bg-[#123751] mx-2 p-2 rounded-lg text-white font-semibold">Filters</button>
+                    <button className="px-5 text-nowrap bg-[#123751] mx-2 p-2 rounded-lg text-white font-semibold">Invite</button>
                 </div>
             </div>
         </div>
