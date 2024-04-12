@@ -9,7 +9,7 @@ export default function Transactions() {
                         <div className="flex items-center pt-5">
                             <Image src={'/money-transfer.svg'} width={40} height={40} alt="Cover Photo" objectFit="contain" className="object-cover object-center " />
                             <div>
-                                <div className="text-xl font-semibold">Dominos Pizza</div>
+                                <div className="text-xl text-black font-semibold">Dominos Pizza</div>
                                 <div className="text-sm text-[#2F995A] font-semibold">10-04-2024</div>
                             </div>
                         </div>
@@ -19,7 +19,7 @@ export default function Transactions() {
                         <div className="flex items-center justify-between">
                             <div>
                                 <div>
-                                    <div>Participants</div>
+                                    <div className="text-black">Participants</div>
                                 </div>
                                 <div className="flex relative">
                                     <div className="relative bg-blue-500 rounded-full w-8 h-8 flex items-center justify-center text-white text-2xl z-50">T</div>
@@ -31,7 +31,7 @@ export default function Transactions() {
                             </div>
                             <div className="flex flex-col items-end">
                                 <div>
-                                    <div>Paid by</div>
+                                    <div className="text-black">Paid by</div>
                                 </div>
                                 <div className="relative bg-blue-500 rounded-full w-8 h-8 flex items-center justify-center text-white text-2xl z-50">T</div>
                             </div>
