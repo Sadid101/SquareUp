@@ -1,11 +1,12 @@
 import Image from "next/image";
+import Link from "next/link";
 
-export default function Transactions2() {
+export default function Transactions() {
     return (
         <div className="bg-[#161616]">
             <div className="min-h-svh max-w-[800px] font-Kanit text-white mx-auto">
                 <div className="pt-16">
-                    <div className="bg-[#282828] mx-auto w-fit p-5 rounded-[24px] w-[350px] max-w-full flex flex-col justify-between">
+                    <div className="bg-[#282828] mx-auto p-5 rounded-[24px] w-[350px] max-w-full flex flex-col justify-between">
                         <div>
                             <div>Total Balance</div>
                             <div>$ 222,358</div>
@@ -23,10 +24,10 @@ export default function Transactions2() {
                 </div>
                 <div className="h-full min-h-svh mt-8 bg-[#282828] w-full rounded-t-[18px] p-8">
                     <div className="flex w-full max-w-[500px] justify-between mx-auto">
-                        <div className="flex flex-col items-center text-center text-sm">
+                        <Link href={'./transactions/add'} className="flex flex-col items-center text-center text-sm">
                             <Image src={'/AI-images/Icon Add.svg'} width={60} height={60} alt="Cover Photo" objectFit="coi" className="object-cover object-center h-[50px] w-[50px]" />
                             <div>Add</div>
-                        </div>
+                        </Link>
                         <div className="flex flex-col items-center text-center text-sm">
                             <Image src={'/AI-images/Icon architecture.svg'} width={60} height={60} alt="Cover Photo" objectFit="coi" className="object-cover object-center h-[50px] w-[50px]" />
                             <div>Settle</div>
