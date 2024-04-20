@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="119.788 168.545 75.31 73.418" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="filter_dshadow_0_0_0_00000014" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="bg-fix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="alpha"/>
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur stdDeviation="0"/>
+      <feComposite in2="alpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0"/>
+      <feBlend mode="normal" in2="bg-fix" result="bg-fix-filter_dshadow_0_0_0_00000014"/>
+      <feBlend in="SourceGraphic" in2="bg-fix-filter_dshadow_0_0_0_00000014" result="shape"/>
+    </filter>
+  </defs>
+  <g opacity="100%" transform="matrix(1, 0, 0, 1, 119.78800201416016, 168.5449981689453)">
+    <rect filter="url(#filter_dshadow_0_0_0_00000014)" x="0" y="0" width="74" height="74" fill="#274841" rx="24"/>
+    <text style="fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 52.3px; white-space: pre;" x="22.528" y="56.477">+</text>
+    <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="176.579" y="78.109"> </text>
+  </g>
+</svg>
