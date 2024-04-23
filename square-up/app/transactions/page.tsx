@@ -22,7 +22,7 @@ export default function Transactions() {
                         </div>
                     </div>
                 </div>
-                <div className="h-full min-h-svh mt-8 bg-[#282828] w-full rounded-t-[18px] p-8">
+                <div className="h-full mt-8 bg-[#282828] w-full rounded-t-[18px] p-8">
                     <div className="flex w-full max-w-[500px] justify-between mx-auto">
                         <Link href={'./transactions/add'} className="flex flex-col items-center text-center text-sm">
                             <Image src={'/AI-images/Icon Add.svg'} width={60} height={60} alt="Cover Photo" objectFit="coi" className="object-cover object-center h-[50px] w-[50px]" />
