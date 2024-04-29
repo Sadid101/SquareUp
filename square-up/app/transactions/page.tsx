@@ -25,19 +25,19 @@ export default function Transactions() {
                 <div className="h-full mt-8 bg-[#282828] w-full rounded-t-[18px] p-8">
                     <div className="flex w-full max-w-[500px] justify-between mx-auto">
                         <Link href={'./transactions/add'} className="flex flex-col items-center text-center text-sm">
-                            <Image src={'/AI-images/Icon Add.svg'} width={60} height={60} alt="Cover Photo" objectFit="coi" className="object-cover object-center h-[50px] w-[50px]" />
+                            <Image src={'/AI-images/Icon Add.svg'} width={60} height={60} alt="Cover Photo" objectFit="contain" className="object-cover object-center h-[50px] w-[50px]" />
                             <div>Add</div>
                         </Link>
                         <div className="flex flex-col items-center text-center text-sm">
-                            <Image src={'/AI-images/Icon architecture.svg'} width={60} height={60} alt="Cover Photo" objectFit="coi" className="object-cover object-center h-[50px] w-[50px]" />
+                            <Image src={'/AI-images/Icon architecture.svg'} width={60} height={60} alt="Cover Photo" objectFit="contain" className="object-cover object-center h-[50px] w-[50px]" />
                             <div>Settle</div>
                         </div>
                         <div className="flex flex-col items-center text-center text-sm">
-                            <Image src={'/AI-images/Icon report.svg'} width={60} height={60} alt="Cover Photo" objectFit="coi" className="object-cover object-center h-[50px] w-[50px]" />
+                            <Image src={'/AI-images/Icon report.svg'} width={60} height={60} alt="Cover Photo" objectFit="contain" className="object-cover object-center h-[50px] w-[50px]" />
                             <div>Monthly</div>
                         </div>
                         <div className="flex flex-col items-center text-center text-sm">
-                            <Image src={'/AI-images/Icon share.svg'} width={60} height={60} alt="Cover Photo" objectFit="coi" className="object-cover object-center h-[50px] w-[50px]" />
+                            <Image src={'/AI-images/Icon share.svg'} width={60} height={60} alt="Cover Photo" objectFit="contain" className="object-cover object-center h-[50px] w-[50px]" />
                             <div>Share</div>
                         </div>
                     </div>
@@ -45,7 +45,7 @@ export default function Transactions() {
                         <div className="text-lg">Shared Expenses</div>
                         <div className="bg-[#161616] w-full flex mt-2 p-5 rounded-2xl">
                             <div className="flex items-center">
-                                <Image src={'/AI-images/Icon shopping cart.svg'} width={60} height={60} alt="Cover Photo" objectFit="coi" className="object-cover object-center h-[50px] w-[50px]" />
+                                <Image src={'/AI-images/Icon shopping cart.svg'} width={60} height={60} alt="Cover Photo" objectFit="contain" className="object-cover object-center h-[50px] w-[50px]" />
                                 <div className="ml-5">
                                     <div>Shopping</div>
                                     <div className="text-[#F04900] text-sm">You borrowed $500</div>
@@ -54,7 +54,7 @@ export default function Transactions() {
                         </div>
                         <div className="bg-[#161616] w-full flex mt-2 p-5 rounded-2xl">
                             <div className="flex items-center">
-                                <Image src={'/AI-images/Icon taxi.svg'} width={60} height={60} alt="Cover Photo" objectFit="coi" className="object-cover object-center h-[50px] w-[50px]" />
+                                <Image src={'/AI-images/Icon taxi.svg'} width={60} height={60} alt="Cover Photo" objectFit="contain" className="object-cover object-center h-[50px] w-[50px]" />
                                 <div className="ml-5">
                                     <div>Taxi</div>
                                     <div className="text-[#17A57F] text-sm">You are owed $500</div>
@@ -63,7 +63,7 @@ export default function Transactions() {
                         </div>
                         <div className="bg-[#161616] w-full flex mt-2 p-5 rounded-2xl">
                             <div className="flex items-center">
-                                <Image src={'/AI-images/house.svg'} width={60} height={60} alt="Cover Photo" objectFit="coi" className="object-cover object-center h-[50px] w-[50px]" />
+                                <Image src={'/AI-images/house.svg'} width={60} height={60} alt="Cover Photo" objectFit="contain" className="object-cover object-center h-[50px] w-[50px]" />
                                 <div className="ml-5">
                                     <div>Household Expenses</div>
                                     <div className="text-[#17A57F] text-sm">You are owed $500</div>
@@ -72,7 +72,7 @@ export default function Transactions() {
                         </div>
                         <div className="bg-[#161616] w-full flex mt-2 p-5 rounded-2xl">
                             <div className="flex items-center">
-                                <Image src={'/AI-images/receipt.svg'} width={60} height={60} alt="Cover Photo" objectFit="coi" className="object-cover object-center h-[50px] w-[50px]" />
+                                <Image src={'/AI-images/receipt.svg'} width={60} height={60} alt="Cover Photo" objectFit="contain" className="object-cover object-center h-[50px] w-[50px]" />
                                 <div className="ml-5">
                                     <div>Netflix</div>
                                     <div className="text-[#F04900] text-sm">You borrowed $500</div>
@@ -81,7 +81,7 @@ export default function Transactions() {
                         </div>
                         <div className="bg-[#161616] w-full flex mt-2 p-5 rounded-2xl">
                             <div className="flex items-center">
-                                <Image src={'/AI-images/gift.svg'} width={60} height={60} alt="Cover Photo" objectFit="coi" className="object-cover object-center h-[50px] w-[50px]" />
+                                <Image src={'/AI-images/gift.svg'} width={60} height={60} alt="Cover Photo" objectFit="contain" className="object-cover object-center h-[50px] w-[50px]" />
                                 <div className="ml-5">
                                     <div>Gifts</div>
                                     <div className="text-[#17A57F] text-sm">You are owed $500</div>
